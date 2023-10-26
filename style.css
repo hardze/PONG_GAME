@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  height: 940px;
+  height: 963px;
   background: linear-gradient(to bottom, #FFC200, #ff8c00);
 }
 canvas {
@@ -11,15 +11,33 @@ header{
   align-items: center;
   justify-content: center;
 }
+:root{
+  --gradient: 
+      linear-gradient(
+      to top,
+      #FF8C00,
+      #ff0000
+  )
+}
 h1{
-  text-align: center;
-  color:rgb(255, 140, 0);
+  position: absolute;
+  top: 0px;
+  left: 860px;
   font-family: Arial;
+  background-image: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 h2{
-  text-align: center;
-  color: rgb(255, 140, 0);
+  position: absolute;
+  top: 45px;
+  left: 480px;
   font-family: Arial;
+  background-image: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 main{
   position: absolute;
