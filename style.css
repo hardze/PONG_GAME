@@ -47,3 +47,10 @@ main{
   top: 120px;
   left: 650px;
 }
+.voltar{
+    max-width: 80px;
+    max-height: 80px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
