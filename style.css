@@ -5,6 +5,7 @@
 body{
   height: 100vh;
   background: linear-gradient(to bottom, #FFC200, #ff8c00);
+  display: flex;
 }
 canvas {
   display: block;
